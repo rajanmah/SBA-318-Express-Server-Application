@@ -36,4 +36,4 @@ const produces = [
   ];
 //   console.log(produces);
   
-  module.exports = produces
+  module.exports = produces;
