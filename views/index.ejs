@@ -19,39 +19,98 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="/styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <div style="color:red">
-        <div class="sidebar">
-            <a class="nav-link nlink-sidebar active" href="#">
-                <h6 style="padding-left:10px">GROCERY </h6>
-            </a>
-            <a class="nav-link nlink-sidebar" href="produce.html">
-                <h6 style="padding-left:10px">PRODUCE</h6>
-            </a>
-            <a class="nav-link nlink-sidebar" href="#">
-                <h6 style="padding-left:10px">BAKERY</h6>
-            </a>
-            <a class="nav-link nlink-sidebar" href="#">
-                <h6 style="padding-left:10px">SPECIALTY</h6>
-            </a>
-            <a class="nav-link nlink-sidebar" href="#">
-                <h6 style="padding-left:10px">MEAT & SEAFOOD</h6>
-            </a>
-            <div id="memebership-banner">
-                <a href="newform.html">
-                    <h4 id="membership">Join our Exclusive Membership</h4>
-                    <img id="sidebar-banner"
-                        src="https://www.wildapricot.com/wp-content/uploads/2022/10/free-membership.png">
-                </a>
+    <!-- navbar    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inno Stores</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Who we are</a>
+                    <a class="nav-link" href="#">Our commitment</a>
+                    <a class="nav-link" href="/api/produces">SHOP</a>
+                    <a class="nav-link" href="/api/branches">Our stores</a>
+                    <a class="nav-link" href="/api/employees" tabindex="-1" aria-disabled="true">Employee login</a>
+                </div>
             </div>
-</div>
-  <!-- <a href="/about">Learn more about us</a> -->
+        </div>
+    </nav>
+
+
+    <div class="image">
+
+        <img style="width:100%"
+            src="https://images.pexels.com/photos/319798/pexels-photo-319798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="">
+        <p class="text">redefining grocery shopping</p>
+    </div>
+
+    <div class="content">
+        <div class="side">
+            <h3>Who we are</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident doloribus eius consequuntur deserunt!
+                Veniam fuga unde inventore dignissimos voluptates saepe, iusto, at minus exercitationem neque
+                consectetur
+                error? Facilis quas esse quo, repudiandae, ducimus accusamus quisquam cumque rem possimus ullam officia.
+            </p>
+        </div>
+        <div class="main">
+            <h3>Our commitment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident doloribus eius consequuntur deserunt!
+                Veniam fuga unde inventore dignissimos voluptates saepe, iusto, at minus exercitationem neque
+                consectetur
+                error? Facilis quas esse quo, repudiandae, ducimus accusamus quisquam cumque rem possimus ullam officia.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, deserunt suscipit? Voluptatibus
+                temporibus unde quo culpa quos, porro dolorem ut?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minima ratione rerum tempora aut veritatis
+                consectetur, quae at, eligendi harum corporis pariatur in? Corporis consequuntur cupiditate molestias
+                sunt dolorem omnis!</p>
+        </div>
+    </div>
+    <!-- <a href="/about">Learn more about us</a> -->
+    <div class="footer">
+        <div>
+            <a class="branches" href="/api/branches/201">Colorado</a> | <a class="branches" href="/api/branches/501">Connecticut</a> | <a class="branches" href="/api/branches/401">Pennsylvania</a> | <a class="branches" href="/api/branches/301">Texas</a>
+        </div>
+        <div>
+
+            <a href="https://www.facebook.com"><img style="width:20px; height:20px"
+                    src="https://seeklogo.com/images/F/facebook-icon-black-logo-133935095E-seeklogo.com.png" alt=""></a>
+            |
+
+            <a href="https://www.x.com">
+                <img style="width:20px; height:20px" src="https://bayrivercolleges.ca/files/logo-x-twitter.svg" alt="">
+            </a>|
+            <a href="https://www.instagram.com">
+
+                <img style="width:20px; height:20px"
+                    src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-black-glyph.png"
+                    alt=""> </a> |
+            <a href="https://www.youtube.com">
+                <img style="width:20px; height:20px" src="https://cdn-icons-png.flaticon.com/512/48/48968.png" alt="">
+            </a> |
+
+            &copy Inno Stores, 2023
+        </div>
+        <div class="col col-md-4">
+        </div>
 </body>
+
 </html>

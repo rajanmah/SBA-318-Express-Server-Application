@@ -6,3 +6,77 @@ body{
     font-family: sans-serif;
     padding: 25px 50px;
 }
+.navbar{
+    display:flex;
+    width:100%;
+    height:40px;
+    position:fixed;
+    top:0;
+    border:1px solid green;
+    background-color: aqua;
+    padding-bottom: 20px;
+    margin-bottom: 20px;;
+}
+.nav-link:hover{
+font-size: 1.1em;
+}
+
+
+    /* .container{
+        display:flex;
+        width:100%;
+        height:200px;
+    border:1px solid green;
+
+    } */
+    .image { 
+        position: relative; 
+        width: 100%; /* for IE 6 */
+        margin-top:50px;
+        /* height:400px; */
+        object-fit: cover;
+    
+     }
+     
+     .text { 
+        position: absolute; 
+        top: 80px; 
+        left: 0; 
+        width: 100%; 
+        font-size:4rem;
+        background: #198754;
+        padding-left: 20px;
+        color:white;
+        text-shadow: #232323;
+     }
+
+     .content {
+        display:flex;
+        margin:10px;
+     }
+
+     .side{
+        width:25%;
+        margin:10px;
+     }
+     .main{
+        width:75%;
+        margin:10px;
+     }
+
+     .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #198754;
+       color: white;
+       text-align: center;
+        padding-bottom:8px;
+    
+    }
+
+    .branches{
+        color:white;
+        text-decoration: none;
+    }
