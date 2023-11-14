@@ -16,7 +16,7 @@ const branches = [
     },
     {
         id: 2,
-        code:201,
+        code: 201,
         estd: 2017,
         state: "Colorado",
         city: "Denver",
@@ -40,7 +40,7 @@ const branches = [
     },
     {
         id: 6,
-        code:301,
+        code: 301,
         estd: 2021,
         state: "Texas",
         city: "Dallas",
@@ -78,7 +78,5 @@ const branches = [
         city: "Stamford",
         employees: 1300,
     },
-
-
 ]
 module.exports = branches;

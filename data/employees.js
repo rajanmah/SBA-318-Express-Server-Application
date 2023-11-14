@@ -1,6 +1,7 @@
-const employees =[
+const employees = [
     {
         "id": 1,
+        "code": 201,
         "name": "Leanne Graham",
         "username": "Bret",
         "email": "Leanne.Gra@innostore.com",
@@ -13,6 +14,7 @@ const employees =[
     },
     {
         "id": 2,
+        "code": 202,
         "name": "Ervin Howell",
         "username": "Antonette",
         "email": "Shanna@innostores.com",
@@ -27,6 +29,7 @@ const employees =[
     },
     {
         "id": 3,
+        "code": 201,
         "name": "Clementine Bauch",
         "username": "Samantha",
         "email": "Nathan@innostores.com",
@@ -41,6 +44,7 @@ const employees =[
     },
     {
         "id": 4,
+        "code": 401,
         "name": "Patricia Lebsack",
         "username": "Karianne",
         "email": "Julianne.OConner@innostores.com",
@@ -56,6 +60,7 @@ const employees =[
     },
     {
         "id": 5,
+        "code": 301,
         "name": "Chelsey Dietrich",
         "username": "Kamren",
         "email": "Lucio_Hettinger@innostores.com",
@@ -70,6 +75,7 @@ const employees =[
     },
     {
         "id": 6,
+        "code": 501,
         "name": "Mrs. Dennis Schulist",
         "username": "Leopoldo_Corkery",
         "email": "Karley_Dach@innostores.com",
@@ -84,6 +90,7 @@ const employees =[
     },
     {
         "id": 7,
+        "code": 501,
         "name": "Kurtis Weissnat",
         "username": "Elwyn.Skiles",
         "email": "Telly.Hoeger@innostores.com",
@@ -98,6 +105,7 @@ const employees =[
     },
     {
         "id": 8,
+        "code": 401,
         "name": "Nicholas Runolfsdottir V",
         "username": "Maxime_Nienow",
         "email": "Sherwood@innostores.com",
@@ -112,6 +120,7 @@ const employees =[
     },
     {
         "id": 9,
+        "code": 401,
         "name": "Glenna Reichert",
         "username": "Delphine",
         "email": "Chaim_McDermott@innostores.com",
@@ -126,6 +135,7 @@ const employees =[
     },
     {
         "id": 10,
+        "code": 301,
         "name": "Clementina DuBuque",
         "username": "Moriah.Stanton",
         "email": "Rey.Padberg@innostores.com",

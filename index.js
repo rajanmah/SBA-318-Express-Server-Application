@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-// const cookieParser = require ('cookie-parser')
 
 
 
@@ -14,27 +13,16 @@ const bodyParser = require("body-parser");
 
 app.use(express.static("./styles"));
 app.use(express.static('public'));
-// const fs = require ('fs');
 
 
 //middleware
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json({ extended: true }));
 app.use('/api/products', products)
 app.use('/api/branches', branches);
 app.use('/api/employees', employees);
 
-
-
-
-// app.get("/", (req, res) => {
-// app.use('api/posts', posts)
-
 app.set('view engine', 'ejs');
-// app.set('views', home +'/views')
-
-app.get('/', (req, res)=>{
-    res.render('index');
+app.get('/', (req, res) => {
+  res.render('index');
 })
 
 
